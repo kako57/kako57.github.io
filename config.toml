@@ -66,8 +66,8 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "kako57's blog"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    subtitle = "kako57's blog"
+    owner = "kako57"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
