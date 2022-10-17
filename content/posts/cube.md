@@ -10,7 +10,6 @@ description: Reversing a 2x2 Rubik's cube implementation
 
 Challenge Author: S01den
 
-
 Language: C/C++\
 Platform: Unix/linux etc.\
 Architecture: x86-64
@@ -23,7 +22,6 @@ Quality: 4.0
 Find a correct flag!\
 This one might be pretty fun.\
 Good luck!
-
 
 [Link to the challenge](https://crackmes.one/crackme/62d08a7a33c5d44a934e97bb)
 
@@ -420,7 +418,7 @@ LABEL_78:
 Before we go to actually solving the problem, here are some useful information:
 
 - For any scramble of a 2x2 Rubik's cube, the most efficient solution would be at most 14 quarter turns.
-This is known as the **God's number** for the 2x2 Rubik's cube.
+  This is known as the **God's number** for the 2x2 Rubik's cube.
 - There exist cube solvers online for 2x2 that have precomputed solutions, as there are about 3674160 comibinations only that need to be exhausted.
 
 \
@@ -433,6 +431,7 @@ more intuitive cube model. This might take way too long, though (because 12 ^ 14
 
 The other one is to recreate the model of the cube.
 In this method, I had to do the following:
+
 1. Figure out which group of indices represent which face.
 2. Figure out the actual mapping of index to location in cube using the permutation of adjacent stickers in rotations as a reference.
 3. Map the indices in a flattened cube representation.
@@ -490,7 +489,7 @@ Then I replaced each index with their given byte values
 
 I went to an [online cube solver](https://rubiks-cube-solver.com/2x2/) and I edited the cube with the byte values converted to colors. I clicked Solve and it gave me the solution instantly.
 
-![The cube representation in the online solver and the solution](/s01den-cube-solution.jpg "Cube Solution")
+![The cube representation in the online solver and the solution](/images/s01den-cube-solution.jpg "Cube Solution")
 
 The solution given by the online solver is not understood by the program,
 so we have to convert it first.
