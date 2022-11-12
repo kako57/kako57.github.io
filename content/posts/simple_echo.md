@@ -8,7 +8,7 @@ description: Exploitation of a format string vulnerability with ASLR enabled
 
 ## About the binary
 
-[Link to binary](/binaries/simple_echo)
+[Link to binary](/files/simple-echo/simple_echo)
 
 This binary was sent to me by a friend, asking me it can be.
 He told me that the vulnerability doesn't seem to be a buffer overflow,
