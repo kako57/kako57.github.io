@@ -82,15 +82,19 @@ paginate = 5
       logoText = "kako57"
       logoHomeLink = "/"
 
-    # [languages.en.menu]
-    #   [[languages.en.menu.main]]
-    #     identifier = "about"
-    #     name = "About"
-    #     url = "/about"
-    #   [[languages.en.menu.main]]
-    #     identifier = "showcase"
-    #     name = "Showcase"
-    #     url = "/showcase"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = " Home"
+        url = "/"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Blog and Writeups"
+        url = "/posts"
+      # [[languages.en.menu.main]]
+      #   identifier = "showcase"
+      #   name = "Showcase"
+      #   url = "/showcase"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
