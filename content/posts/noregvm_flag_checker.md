@@ -8,8 +8,7 @@ description: Reversing a flag checker program written for a virtual machine with
 
 ## About the challenge
 
-This is the rev challenge counterpart for the NoRegVM challenge
-in m0leCon teaser 2023.
+This is the rev counterpart for the NoRegVM in m0leCon teaser 2023.
 
 We were given the virtual machine (VM) executable,
 the flag checker program, and the initial memory data paired with the checker.
