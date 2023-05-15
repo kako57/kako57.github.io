@@ -714,7 +714,7 @@ Me: Got stuck bruteforcing a solution using angr and z3. Calls for
 therapy because I'm too dumb to solve this.
 
 [gcheang](https://github.com/gcheang): You know what this looks like?
-This loks like linear algebra.
+This looks like linear algebra.
 
 See this
 [relevant tweet by cts](https://twitter.com/gf_256/status/1543321843037310985).
