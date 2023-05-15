@@ -677,7 +677,7 @@ exit 0
 
 This is one of 20 blocks of code that checks if the flag is correct.
 It starts with initializing the accumulator to 0, and then multiplying
-the ascii value of each character in the flag with a constant, and adding
+the ASCII value of each character in the flag with a constant, and adding
 it to the accumulator. This is done for each character in the flag (except
 for the first 4 characters and the last,
 which are already checked in the first few blocks).
@@ -710,7 +710,7 @@ input[4] * c_24 + input[5] * c_25 + ... + input[23] * c_46 == c_47
 
 ### 
 
-Me: Got stuck bruteforcing a solution using angr and z3. Calls for
+Me: Got stuck brute-forcing a solution using angr and z3. Calls for
 therapy because I'm too dumb to solve this.
 
 [gcheang](https://github.com/gcheang): You know what this looks like?
