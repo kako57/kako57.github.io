@@ -8,7 +8,7 @@ description: Reversing a flag checker program written for a virtual machine with
 
 ## About the challenge
 
-This is a the rev challenge counterpart for the NoRegVM challenge
+This is the rev challenge counterpart for the NoRegVM challenge
 in m0leCon teaser 2023.
 
 We were given the virtual machine (VM) executable,
@@ -611,7 +611,7 @@ and subtracts 26 from it. If the result is not zero, it jumps to the
 `wrong` label, which will print out the message for wrong flag and exit.
 If the result is zero, it will continue to the next block of code.
 This means that our flag must be 26 characters long, including the newline
-(due to fgets reading the newline character).
+(due to `fgets` reading the newline character).
 
 The next block of code checks if the flag is formatted correctly.
 It's just a quirky way of checking if the flag starts with `ptm{` and ends
