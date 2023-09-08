@@ -10,7 +10,7 @@ description: Exploitation of a format string vulnerability with ASLR enabled
 
 [Link to binary](/files/simple-echo/simple_echo)
 
-This binary was sent to me by a friend, asking me it can be.
+This binary was sent to me by a friend, asking me if it can be exploited.
 He told me that the vulnerability doesn't seem to be a buffer overflow,
 and that he didn't find any other ways to attack it.
 
