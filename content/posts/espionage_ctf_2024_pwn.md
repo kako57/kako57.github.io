@@ -388,20 +388,20 @@ We can pad it with 3 null bytes, but how are we going to know how many null byte
 are there used for the padding? Also, what if the message already ends with null bytes?
 We'll have no way of knowing how many null bytes are used for padding.
 
-This is where PKCS#7 comes in. It tells us how many bytes are used for padding,
-and it also tells us what the padding bytes are.
+This is where PKCS#7 comes in. It tells us how many bytes to use for padding,
+and it also tells us what the padding byte values are.
 
 It is actually very simple. The number of padding bytes is equal to the byte value
 of the padding bytes. For example, if we need to pad 3 bytes, then we pad our
-encrypted message with 3 bytes of the value 3.
+message with 3 bytes of the value 3.
 
-[ 13 bytes encrypted data ] [0x03 0x03 0x03]
+[ 13 bytes message ] [0x03 0x03 0x03]
 
 Now we know that there are 3 bytes of padding, and we know what the padding bytes are.
 What if the message is already a multiple of the block size? Then we need to add
 a whole block of padding bytes.
 
-[ 16 bytes encrypted data ] [0x10 bytes of 0x10]
+[ 16 bytes message ] [0x10 bytes of 0x10]
 
 Now, if we want to decrypt the message, we can just look at the last byte of the
 decrypted message, and see how many bytes we need to remove.
