@@ -354,7 +354,7 @@ using the dropped shell.
 Now this one is a bit more interesting. It has something to do with cryptography,
 and how we pad encrypted messages.
 
-I actually learned about how this AES-CBC works from work last week,
+I actually learned about how AES-CBC works from work last week,
 so I was able to solve this challenge pretty quickly, and get first blood!
 
 ### What is AES-CBC, and block ciphers?
@@ -590,12 +590,13 @@ EspionageCTF{Encrypt3d_N0t_auth3nticat3d}
 
 ## Conclusion
 
-I hope you enjoyed my writeups. I'm not really good at writing writeups,
-so I hope you can forgive me for that.
+I hope you enjoyed reading this writeup, and I hope you learned something from it.
+Shoutouts to ISSessions for hosting this CTF, and shoutouts to the challenge authors
+for making these challenges.
 
-I also hope that you learned something from this writeup.
-If you ever ask me for help, I will probably just tell you to read this writeup,
-because I don't want to explain it again.
+And with that, the pwn is done. Look forward to a writeup for ScrambledSquares,
+but I'll have to do it later, when my 8-year-old brother can understand it; that is,
+when he nods at every sentence I explain to him.
 
-I'm kidding, of course. If you have any questions, feel free to contact me on Discord.
-I'll be happy to help you out, after work hours.
+__fastcall will be writing the writeup for ScrambledSquares as well, and I would
+suggest you look forward to it if you have experience in reverse engineering.
