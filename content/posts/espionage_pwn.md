@@ -2,7 +2,7 @@
 title: ISSessions Espionage CTF 2024 - pwn challenge writeups
 slug: espionage-pwn-2024
 date: 2024-01-28
-author: kako57
+author: drec
 description: crazy solutions inside
 ---
 
@@ -91,7 +91,7 @@ Then, `fTemp` is set to `cTemp * 2 + 32`.
 If `cTemp` is negative, then `fTemp` will be negative, right?
 Well, not quite.
 If we can make `cTemp` negative enough,
-then `cTemp * 2` will overflow, and the result will be positive.
+then `cTemp * 2` will underflow, and the result will be positive.
 
 ### How can `fTemp` be positive?
 
