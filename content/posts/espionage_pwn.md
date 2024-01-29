@@ -3,7 +3,7 @@ title: ISSessions Espionage CTF 2024 - pwn challenge writeups
 slug: espionage-pwn-2024
 date: 2024-01-28
 author: kako57
-description: Lamest solutions for entry-level CTF challenges
+description: craziest solutions for entry-level pwn challenges
 ---
 
 # Espionage CTF Pwn challenge writeups
