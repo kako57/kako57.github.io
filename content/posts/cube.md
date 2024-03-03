@@ -489,7 +489,7 @@ Then I replaced each index with their given byte values
 
 I went to an [online cube solver](https://rubiks-cube-solver.com/2x2/) and I edited the cube with the byte values converted to colors. I clicked Solve and it gave me the solution instantly.
 
-![The cube representation in the online solver and the solution](/images/s01den-cube-solution.jpg "Cube Solution")
+![Cube Solution](/images/s01den-cube-solution.jpg "Cube Solution")
 
 The solution given by the online solver is not understood by the program,
 so we have to convert it first.
