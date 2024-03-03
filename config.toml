@@ -5,6 +5,8 @@ title = 'kako57'
 theme = "terminal"
 paginate = 10
 
+enableRobotsTXT = true
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -59,8 +61,8 @@ paginate = 10
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "dre_cura"
+  site = "https://twitter.com/dre_cura"
 
 [languages]
   [languages.en]
@@ -68,7 +70,7 @@ paginate = 10
     title = "kako57's blog"
     subtitle = "kako57's blog"
     owner = "kako57"
-    keywords = ""
+    keywords = "Reverse Engineering, Binary Exploitation, CTF, Capture the Flag, Hacking, Cybersecurity, Vulnerability Research, Dre Cura, drec, kako57"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
