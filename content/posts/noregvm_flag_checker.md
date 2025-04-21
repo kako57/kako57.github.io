@@ -709,11 +709,11 @@ input[4] * c_24 + input[5] * c_25 + ... + input[23] * c_46 == c_47
 
 Now we can use angr and z3 for this... right?
 
-<!-- Me: Got stuck brute-forcing a solution using angr and z3. Calls for
+Me: Got stuck brute-forcing a solution using angr and z3. Calls for
 therapy because I'm too dumb to solve this.
 
 [gcheang](https://github.com/gcheang): You know what this looks like?
-This looks like linear algebra. -->
+This looks like linear algebra.
 
 See this
 [relevant tweet by cts](https://twitter.com/gf_256/status/1543321843037310985).
