@@ -424,7 +424,7 @@ A solution can be written similarly for *prospectors_claim*, and the flag would 
 I have shown that a genetic algorithm can be good for optimization problems.
 If it weren't for it, we would have otherwise needed to look into some complicated logic.
 
-Shoutouts to [gcheang](https://github.com/gcheang) for teaching me ~~how to breed~~ genetic algorithms back in Winter of 2023.
+Shoutouts to <!-- [gcheang](https://github.com/gcheang) --> for teaching me ~~how to breed~~ genetic algorithms back in Winter of 2023.
 
 Thank you to my team, \[:\], for believing in my strategy.
 
