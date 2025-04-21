@@ -1,5 +1,5 @@
 ---
-title: PlaidCTF 2025: rev/prospectin' - Writeup
+title: PlaidCTF 2025 - rev/prospectin' - Writeup
 slug: plaid-2025-prospectin
 date: 2025-04-20
 author: kako57
