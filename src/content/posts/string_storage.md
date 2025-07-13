@@ -2,7 +2,8 @@
 title: CyberSci 2022 - pwn - String Storage
 slug: string-storage
 published: 2022-11-12
-author: kako57
+tags: [off-by-one, pwn, CTF]
+category: CTF writeups
 description: Abusing an off-by-one error in a search query to extract dereferenced data
 ---
 

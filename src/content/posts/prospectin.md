@@ -2,7 +2,8 @@
 title: PlaidCTF 2025 - rev/prospectin' - Writeup
 slug: plaid-2025-prospectin
 published: 2025-04-20
-author: kako57
+tags: [rev, genetic algorithm, CTF]
+category: CTF writeups
 description: Bred flags to solve a reverse engineering challenge
 ---
 
@@ -424,7 +425,7 @@ A solution can be written similarly for *prospectors_claim*, and the flag would 
 I have shown that a genetic algorithm can be good for optimization problems.
 If it weren't for it, we would have otherwise needed to look into some complicated logic.
 
-Shoutouts to <!-- [gcheang](https://github.com/gcheang) --> for teaching me ~~how to breed~~ genetic algorithms back in Winter of 2023.
+Shout-out to [gcheang](https://github.com/gcheang) for teaching me ~~how to breed~~ genetic algorithms back in Winter of 2023.
 
 Thank you to my team, \[:\], for believing in my strategy.
 

@@ -2,7 +2,8 @@
 title: DamCTF 2025 - Pwn Writeup
 slug: damctf-2025-pwn-writeup
 published: 2025-05-11
-author: kako57
+tags: [pwn, CTF, libdebug, VM, ROP, ret2libc, brainfuck]
+category: CTF writeups
 description: Writeups for dnd, charful, brain-a-tac
 ---
 

@@ -2,7 +2,8 @@
 title: ISSessions Espionage CTF 2024 - pwn challenge writeups
 slug: espionage-pwn-2024
 published: 2024-01-28
-author: drec
+tags: [gdb, angr, C#, .NET, pwn, CTF]
+category: CTF writeups
 description: crazy solutions inside
 ---
 

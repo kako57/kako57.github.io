@@ -2,7 +2,8 @@
 title: Simple Echo - Format String Vulnerability Exploitation
 slug: simple-echo
 published: 2022-10-16
-author: kako57
+tags: [format string, aslr, pwn]
+category: Other writeups
 description: Exploitation of a format string vulnerability with ASLR enabled
 ---
 

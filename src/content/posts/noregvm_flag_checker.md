@@ -2,7 +2,8 @@
 title: m0leCon teaser 2023 - rev - NoRegVM Flag Checker
 slug: noregvm-flag-checker
 published: 2023-05-14
-author: kako57
+tags: [ CTF, rev, VM, disassembler, linear algebra ]
+category: CTF writeups
 description: Reversing a flag checker program written for a virtual machine with no registers
 ---
 

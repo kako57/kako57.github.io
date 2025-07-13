@@ -2,7 +2,8 @@
 title: S01den's cube - Writeup
 slug: s01den-cube
 published: 2022-08-29
-author: kako57
+tags: [crackme, rev, C]
+category: Other writeups
 description: Reversing a 2x2 Rubik's cube implementation
 ---
 

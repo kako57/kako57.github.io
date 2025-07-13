@@ -2,7 +2,8 @@
 title: Potion Master - Writeup
 slug: potion-master
 published: 2022-12-16
-author: kako57
+tags: [Haskell, Z3, reverse-engineering]
+category: CTF writeups
 description: Reversing a chunky Haskell program
 ---
 

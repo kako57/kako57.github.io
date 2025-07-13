@@ -2,7 +2,8 @@
 title: printshop - pwn - PatriotCTF 2023
 slug: printshop
 published: 2023-09-29
-author: kako57
+tags: [pwn, format string, pwntools, radare2, CTF]
+category: CTF writeups
 description: Automated Format String Exploitation using pwntools
 ---
 

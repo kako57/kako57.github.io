@@ -2,7 +2,7 @@
 title: Imaginary CTF 2024 - writeups
 slug: imaginaryctf-2024-writeup
 published: 2024-07-28
-author: drec
+category: CTF writeups
 description: writeups for lcasm, SVM revenge, and Oh, a Camel!
 ---
 
