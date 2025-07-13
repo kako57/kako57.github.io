@@ -8,6 +8,7 @@ also known as:
 - kako57 (github)
 - drec (ctfs)
 - dre.cc (discord)
+- 「」
 
 I'm currently a fourth year student at the University of Toronto,
 with a major in Mental Health Studies and a minor in Biology and Computer Science.

@@ -2,6 +2,7 @@
 title: Imaginary CTF 2024 - writeups
 slug: imaginaryctf-2024-writeup
 published: 2024-07-28
+tags: [LCG, VM, OCaml, pwn, crypto, rev, CTF, writeup]
 category: CTF writeups
 description: writeups for lcasm, SVM revenge, and Oh, a Camel!
 ---
