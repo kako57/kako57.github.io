@@ -2,6 +2,7 @@
 title: How I won a tic-tac-toe bot competition
 slug: code-clash-ttt
 published: 2025-07-12
+image: './be-better-vs-nokemon.png'
 tags: [tic-tac-toe, bot programming, artificial intelligence, game theory, minimax, alpha-beta pruning, heuristics]
 category: Blog posts
 description: The story, the tech, and the challenges of making a tic-tac-toe engine.
@@ -593,13 +594,8 @@ The very first game is shown below, where my bot (Be Better) is X, and nokemon's
 
 ![Game - Be Better (X) v.s. nokemon (O)](./be-better-vs-nokemon.png)
 
-You can also analyze the game with Gomoku Calculator [here](https://www.gomocalc.com/#/e6f6f5e5g7d7g6g8d4h7f8f9e10i6j5e9g9d9d10c9b9c10g10h10j7c8c7e8e7c6b5d6b7d8d5b8a8f10j6j8c4f7b3j4b4b6a2).
+You can also analyze the game with Gomoku Calculator [here](https://www.gomocalc.com/#/f5f6g7e5e6d7g6g8d4h7f8f9e10i6j5e9g9d9d10c9b9c10g10h10j7c8c7e8e7c6b5d6b7d8d5b8a8f10j6j8c4f7b3j4b4b6a2).
 Make sure to set the board size to 10x10, and the rule to Gomoku.
-
-> [!NOTE]
-> I actually didn't know the exact sequence of moves for the first six moves, but there was not much difference in evaluation, anyway.
-> I requested for the game records from the organizers, and if they provide them, I might update this post with the exact sequence of moves,
-> and maybe some analyses of the games in another post.
 
 ## Conclusion
 
