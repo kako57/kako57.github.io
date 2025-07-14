@@ -2,7 +2,6 @@
 title: How I won a tic-tac-toe bot competition
 slug: code-clash-ttt
 published: 2025-07-12
-image: './be-better-vs-nokemon.png'
 tags: [tic-tac-toe, bot programming, artificial intelligence, game theory, minimax, alpha-beta pruning, heuristics]
 category: Blog posts
 description: The story, the tech, and the challenges of making a tic-tac-toe engine.
