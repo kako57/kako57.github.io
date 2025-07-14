@@ -64,11 +64,11 @@ export const profileConfig: ProfileConfig = {
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://twitter.com/dre_cura",
 		},
-    {
-      name: "LinkedIn",
-      icon: "fa6-brands:linkedin",
-      url: "https://www.linkedin.com/in/drec/",
-    },
+		{
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/drec/",
+		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
