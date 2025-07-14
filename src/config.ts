@@ -12,8 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "drec's blog",
 	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
-		hue: 0, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		// hue: 0, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 30, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
@@ -65,11 +64,11 @@ export const profileConfig: ProfileConfig = {
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://twitter.com/dre_cura",
 		},
-		// {
-		// 	name: "Steam",
-		// 	icon: "fa6-brands:steam",
-		// 	url: "https://store.steampowered.com",
-		// },
+    {
+      name: "LinkedIn",
+      icon: "fa6-brands:linkedin",
+      url: "https://www.linkedin.com/in/drec/",
+    },
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
